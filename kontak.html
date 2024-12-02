@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="web.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulir Pendaftaran </title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+
+<body>
+    <nav class="navbar" style="background-color: #bfe0f8;">
+        <img src="lambang.jpg" class="rounded-circle" alt="Foto Bulat" width="50px" height="50px">
+        <h4>Formulir Pendaftaran</h4>
+        <ul class="nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="Beranda.html">Beranda</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Kegiatan.html">Kegiatan</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="galeri.html">Galeri</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="kontak.html">Kontak</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="About.html">About</a>
+          </li>
+        </ul>
+        </nav>
+    <div class="container"></div>
+    <form action="proses pendaftaran.php" method="post"></form>
+    <div class="form-group">
+        <label for="Nama"> Nama:</label><br>
+        <input type="text" id="nama" nama="nama"><br>
+        <label for="username">Username: </label><br>
+        <input type="text" id="username" username="username"><br>
+        <label for="password"> Password: </label><br>
+        <input type="text" id="password" password="password"><br>
+        <label for="alamat">Alamat</label> <br>
+        <textarea neme="alamat" rows="10" cols="30">
+        </textarea><br>
+        <label for="email"> Email: </label><br>
+        <input type="text" id="email" email="email"><br>
+        <label for="no telepon">No Telepon: </label><br>
+        <input type="text" id="no telepon" no telepon="no telepon"><br>
+        <p>Jenis kelamin: </p>
+        <form>
+            <input type="radio" id="perempuan" name="perempuan" value="perempuan">
+            <label for="perempuan">Perempuan</label> <br>
+            <input type="radio" id="Laki-Laki" name="Laki-laki" value="laki-laki">
+            <label for="laki-laki">Laki-Laki</label> <br>
+        </form>
+
+            <label for="Jenis Kegiatan">Jenis Kegiatan: </label> <br>
+            <select id="Jenis Kegiatan" name="Jenis Kegiatann">
+                <option value="cipada">festival musik tomorrowland</option>
+                <option value="jambudipa">berpetualang</option>
+                <option value="kertawangi">Kertawangi</option>
+            </select> <br>
+
+            <label for="destinasi yang ingin dikunjungi">Destinasi yang ingin di kunjungi</label><br>
+            <label>
+                <input type="checkbox" name="option4">
+                Festival musik tomorrowland
+            </label> <br>
+            <label>
+                <input type="checkbox" name="option4">
+                berpetualang
+            </label> <br>
+            <label>
+                <input type="checkbox" name="option4">
+                Ardennes
+            </label> <br>
+             <div class="submit">
+            <ul>
+              <input type="submit" value="Submit">
+            </ul>
+          </div>
+
+            <h2>Masukan Saran & Kritik</h2>
+            <label for="nama">Nama:</label> <br>
+            <input type="text" id="nama" nama="nama"> <br>
+            <label for="email">Email:</label> <br>
+            <input type="text" id="email" email="email"> <br>
+            <label for="saran&kritik">Saran & Kritik:</label><br>
+            <textarea neme="alamat" rows="10" cols="30">
+            </textarea><br>
+        
+          <div class="submit">
+            <ul>
+              <input type="submit" value="Submit">
+            </ul>
+          </div>
+          <div class="row mt-5">
+            <div class="col-md-6 text-center">
+                <h1>TEMPAT PARIWISATA</h1>
+                <p>Kami menyediakan berbagai pilihan tempat wisata untuk keluarga&teman-teman.Nikmati liburan yang menyenangkan bersama kami!</p>
+            </div>
+            
+        <div class="col-md-6 text-center">
+            <h4>Hubungi Kami</h4>
+            <p>Email: <a href="mailto:belgia@gmail.com">belgia@gmail.com</a><br>Telepon: +62 1146 7531 09334</p>
+        </div>
+        <div class="container text-center mt-5 mb-3">
+            <p>&copy; citra dewi aulya 2024.</p>
+        </div>
+</body>
+</html>
